@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid rgb(169, 184, 194);
+    border-bottom: 1px solid rgb(169, 184, 194);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+}
+
+.activo p{
+    font-size: 0.9em;
+}
+
+.iconos{
+    display: flex;
+    gap: 1em;
+}
+.iconos i {
+    font-size: 1.5em;
+    color: rgb(169, 184, 194);
+
+}
+.container-aside{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-top: 1px solid rgb(169, 184, 194);
+    padding: 1em;
+    color:rgb(57, 60, 63) ;
+}
+
+.container-aside img{
+    border-radius: 10em;
+
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-top: 1px solid rgb(169, 184, 194);
+}
+.boton button{
+    background-color:#A491D3;
+    color: white;
+    border: 1px solid #A491D3;
+    padding: 1em;
+    width: 10em;
+}
+
+/* contenido*/
+main{
+    background-color: #f4f0ff;
+    width: 100%;
+}
+
+main{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.comienza{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.comienza h2{
+    font-size: 3em;
+}
+
+main img{
+    width: 15em;
+    height: 15em;
+    border-radius: 0.6em;
+}
